@@ -1,5 +1,6 @@
 using PiesShop.Services;
 using Microsoft.EntityFrameworkCore;
+using PiesShop.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +9,7 @@ builder.Services.AddScoped<IPieRepository, PieReposetory>();
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<ICustomerRepo, CustomerRepo>();
 builder.Services.AddScoped<IShopingCard, ShopingCard>(xx => ShopingCard.GetCart(xx));
+builder.Services.AddScoped<IOrderRepo, OrderRepo>();
 
 builder.Services.AddSession();
 builder.Services.AddHttpContextAccessor();

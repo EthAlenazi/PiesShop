@@ -1,4 +1,6 @@
 ﻿
+using PiesShop.Models;
+
 namespace PiesShop.Services
 {
     public class CategoryRepository : ICategoryRepository

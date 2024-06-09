@@ -1,7 +1,7 @@
-﻿using PiesShop.Models;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using PiesShop.Data;
 
-namespace PiesShop.Services
+namespace PiesShop.Models
 {
     public class ShopDBContext : DbContext
     {
@@ -13,5 +13,7 @@ namespace PiesShop.Services
         public DbSet<Category> Categories { get; set; }
         public DbSet<Customers> Customers { get; set; }
         public DbSet<ShoppingCardItems> shoppingCardItems { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderDetails> OrderDetails { get; set; }
     }
 }
