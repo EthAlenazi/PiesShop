@@ -7,3 +7,10 @@
 /.vs/_piesShop/v17/.wsuo
 /.vs/VSWorkspaceState.json
 /.vs/VSWorkspaceState.json
+/PiesShop/Migrations/20240603151247_dataBase.Designer.cs
+/PiesShop/Migrations/20240605075041_addCustomer.Designer.cs
+/PiesShop/Migrations/20240605150817_shoppingCard.Designer.cs
+/PiesShop/Migrations/20240609151642_data.cs
+/PiesShop/Migrations/20240609151642_data.Designer.cs
+/PiesShop/Migrations/ShopDBContextModelSnapshot.cs
+/PiesShop/bin/Debug/net8.0
